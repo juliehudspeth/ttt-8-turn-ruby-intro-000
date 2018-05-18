@@ -38,5 +38,6 @@ def turn(board)
   valid_move(board, index)
   position_taken(board, index)
   move(board,index,token = "X")
+  display_board(board)
   turn(board)
 end
