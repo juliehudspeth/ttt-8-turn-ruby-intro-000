@@ -32,4 +32,3 @@ def position_taken?(board, index)
   else board[index] == "X" or board[index] == "O"
     true
   end
-end
