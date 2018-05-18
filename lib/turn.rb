@@ -24,7 +24,6 @@ def turn(board)
         turn(board)
     end
   end
-end
 
 def position_taken?(board, index)
   if board[index] == " " or board[index] == "" or board[index] == nil
@@ -32,3 +31,4 @@ def position_taken?(board, index)
   else board[index] == "X" or board[index] == "O"
     true
   end
+end
